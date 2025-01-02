@@ -1,8 +1,8 @@
-package com.saucedemo;
+package com.saucedemo.pages;
 
 import org.openqa.selenium.By;
 
-import com.saucedemo.pages.BasePage;
+import com.base.BasePage;
 
 public class ProductsPage extends BasePage {
 	private By productsHeader = By.cssSelector("span.title");
